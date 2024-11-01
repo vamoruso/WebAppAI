@@ -6,14 +6,22 @@
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
 </p>
 <ul>
-  <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale
+  <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale<br/>
     <ol>
         <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png"/> </li>
         <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_2.png"/> </li>
         <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png"/> </li>
     </ol>
   </li>
-  <li>Applicazione pratica di IA con analisi del testo di un manuale pdf</li>
+  <li>Applicazione pratica di IA con analisi del testo di un manuale pdf<br/>
+       <ol>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen_1.png"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen_2.png"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen_3.png"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen_4.png"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen_5.png"/> </li>
+       </ol>
+  </li>
   <li>Applicazione IA di WebSpeech API ed analisi NLP con Spacy</li>
 </ul>
 
