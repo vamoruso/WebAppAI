@@ -3,7 +3,7 @@
 ###
 
 <p align="left">Questo repository è collegato al progetto la tesi di laurea L31 di Vincenzo Amoruso dell'AA 2024/25 della Unipegaso. <br/>Relatore Prof. Stefano D&apos;Urso</p>
-<p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b>b></p>
+<p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
 </p>
 
 
