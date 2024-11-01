@@ -2,15 +2,11 @@
 
 ###
 
-<p align="left">Questo repository è collegato al progetto di tesi di laurea L31</p>
+<p align="left">Questo repository è collegato al progetto di tesi di laurea L31 di Vincenzo Amoruso dell'AA 2024/25 della Unipegaso. Relatore Prof. Stefano D&apos;Urso</p>
 
 ###
 
 <h2 align="left">About me</h2>
-
-###
-
-<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
 
 ###
 
