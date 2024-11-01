@@ -6,7 +6,9 @@
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
 </p>
 <ul>
-  <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale</li>
+  <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale
+  ![Alt text](/blob/main/screenshots/OCR/OCR_screen_1.png?raw=true "Optional Title")
+  </li>
   <li>Applicazione pratica di IA con analisi del testo di un manuale pdf</li>
   <li>Applicazione IA di WebSpeech API ed analisi NLP con Spacy</li>
 </ul>
