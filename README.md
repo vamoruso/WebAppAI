@@ -7,7 +7,9 @@
 </p>
 <ul>
   <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale
-  [/blob/main/screenshots/OCR/OCR_screen_1.png?raw=true](https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png) 
+    <ol>
+        <li>![Scelta file](https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png) </li>
+    </ol>
   </li>
   <li>Applicazione pratica di IA con analisi del testo di un manuale pdf</li>
   <li>Applicazione IA di WebSpeech API ed analisi NLP con Spacy</li>
