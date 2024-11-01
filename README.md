@@ -2,14 +2,39 @@
 
 ###
 
-<p align="left">Questo repository è collegato al progetto la tesi di laurea L31 di Vincenzo Amoruso dell'AA 2024/25 della Unipegaso. <br/>Relatore Prof. Stefano D&apos;Urso</p>
+<p align="left">Questo repository è collegato al progetto software per la tesi di laurea del corso L31 di Vincenzo Amoruso dell'AA 2024/25 della università telematica <b>Unipegaso</b>. <br/>Relatore <b>Prof. Stefano D&apos;Urso</b> per &quot;Tecnologie Web&quot;</p>
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
 </p>
+<ul>
+  <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale<br/>
+    <ol>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png" style="width: 50%; height: 50%" /> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_2.png" style="width: 50%; height: 50%" /> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png" style="width: 50%; height: 50%" /> </li>
+    </ol>
+  </li>
+  <li>Applicazione pratica di IA con analisi del testo di un manuale pdf<br/>
+       <ol>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen1.png" style="width: 50%; height: 50%"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen2.png" style="width: 50%; height: 50%"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen3.png" style="width: 50%; height: 50%"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen4.png" style="width: 50%; height: 50%"/> </li>
+        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen5.png" style="width: 50%; height: 50%"/> </li>
+       </ol>
+  </li>
+  <li>Applicazione IA di WebSpeech API ed analisi NLP con Spacy<br/>
+      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen1.png" style="width: 50%; height: 50%"/> </li>
+      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen2.png" style="width: 50%; height: 50%"/> </li>
+      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen3.png" style="width: 50%; height: 50%"/> </li>
+      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen4.png" style="width: 50%; height: 50%"/> </li>
+      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen5.png" style="width: 50%; height: 50%"/> </li>  
+  </li>
+</ul>
 
 
 ###
 
-<h2 align="left">Vincenzo Amoruso</h2>
+<h2 align="left">Vincenzo Amoruso <cite>2024</cite></h2>
 
 ###
 
