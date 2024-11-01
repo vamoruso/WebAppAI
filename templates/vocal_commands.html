@@ -1,0 +1,187 @@
+                <div>
+                    <div id="help-instructions" class="card">
+                        <div class="card-header">
+                            <span class="material-icons">help</span> Help Instructions
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">How to use vocal command</h5>
+                            <p class="card-text">
+                                Follow these steps to use the functionality:
+                            </p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Click on the <span class="material-icons">mic</span> icon to begin voice recognition.</li>
+                                <li class="list-group-item"><span class="material-icons">record_voice_over</span> Say something. For example : <br/>
+                                    &#34;<i>i'm in vacancy today</i>&#34;<br/>
+                                    &#34;<i>yesterday i took a day off</i>&#34;.
+                                </li>
+                                <li class="list-group-item">Click on the <span class="material-icons">stop</span> icon to stop voice recognition.</li>
+                                <li class="list-group-item"><span class="material-icons">hourglass_empty</span>Wait for the NLP server to parse the command.</li>
+                                <li class="list-group-item"><span class="material-icons">list</span> See the results in absence list.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Last vocal command
+                            <div class="help-icon" onclick="toggleHelp()">
+                               ?
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="p-2 alert alert-primary" role="alert" id="recognizedText">
+                            <b>Here you'll see what you said.</b>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="card card-body">
+                         <h5 class="card-title text-center"><span class="material-icons">list</span> My absence list</h5>
+                    <div class="container">
+                      <div class="row gx-1">
+                        <div class="col-1 col-md-1  border bg-light"><b>#</b></div>
+                        <div class="col-11 col-md-5 border bg-light"><b>Reason</b></div>
+                        <div class="col-4  col-md-2 border bg-light"><b>Start Date</b></div>
+                        <div class="col-4 col-md-2  border bg-light"><b>End Date</b></div>
+                        <div class="col-2 col-md-2  border bg-light"><b>Duration</b></div>
+                        <div class="col-2 col-md-1  border bg-light flex-column"></div>
+                      </div>
+                   <!-- Leaves List -->
+                    <div class="col-12" id="absence_row_list">
+                        <div id="no_rows" class="alert alert-warning text-center" role="alert">
+                                Empty list
+                        </div>
+                    </div>
+                    <script id="absence_row_template"  type="text/x-handlebars-template">
+                        {% raw %}
+                      <div id="absence_id{{inc @index}}" class="row gx-1 {{#isEven @index}}row-odd{{else}}row-even{{/isEven}}" >
+                        <div class="col-1 col-md-1 border">{{getIndex}}</div>
+                        <div class="col-11 col-md-5 border">{{reason}}</div>
+                        <div class="col-4 col-md-2 border">{{dateFormat  date_from "MM/DD/YYYY"}}</div>
+                        <div class="col-4 col-md-2 border">{{dateFormat  date_to   "MM/DD/YYYY"}}</div>
+                        <div class="col-2 col-md-1 border">{{duration}}</div>
+                        <div class="col-2 col-md-1 border"> <button type="button" class="btn btn-no-border d-block" onclick="javascript:deleteAbsenceById('absence_id{{getIndex}}')"><i class="fa fa-trash"></i></button></div>
+                      </div>
+                        {% endraw %}
+                    </script>
+                    </div>
+                </div>
+                </div>
+                <div class="progress" id="id_analyzeCommand_progress" style="display:none;">
+                            <!--div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div-->
+                            <div class="spinner-grow text-warning" role="status">
+                                     <span class="visually-hidden">Listening...</span>
+                            </div>
+                </div>
+                 <div id="elapsed-timer">
+                        <div class="red-circle"></div>
+                        <span id="timer-text">00:00:000</span>
+                </div>
+                <div class="fab-container">
+                      <div class="sub-button shadow">
+                            <a href="#" onclick="javascript:manageRecognition();">
+                                <span id="mic" class="material-icons">mic</span>
+                            </a>
+                      </div>
+                </div>
+
+  <script>
+      var wsrInitiated=false;
+      var speaking=false;
+      var recognition;
+  if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.lang = "en-US";
+
+      recognition.continuous = false;
+      recognition.interimResults = false;
+
+      recognition.onstart = function() {
+         $('#mic').text('stop');
+         console.log("Speech recognition started");
+      };
+
+      recognition.onresult = function(event) {
+        stopTimer();
+        const transcript = event.results[0][0].transcript;
+        console.log("You said: " + transcript);
+        showToast(messages.you_said, transcript, 3000);
+        document.getElementById("recognizedText").innerHTML='<b>'+transcript+'</b>';
+        if (!isNullOrEmpty(transcript))
+              analyzeCommand(transcript);
+      };
+
+      recognition.onerror = function(event) {
+        console.error("Error occurred in speech recognition: ", event.error);
+      };
+
+      recognition.onspeechend = () => {
+            recognition.stop();
+            console.log('Riconoscimento vocale terminato.');
+       };
+      recognition.onend = function() {
+        $('#mic').text('mic');
+        console.log("Speech recognition ended");
+      };
+      wsrInitiated=true;
+
+    } else {
+            console.error("Speech Recognition API not supported in this browser.");
+            showToast("Error", "Speech Recognition API not supported in this browser.", 3000);
+    }
+    function startRecognition() {
+            recognition.start();
+            speaking=true;
+            startTimer();
+    }
+    function stopRecognition() {
+            recognition.stop();
+            speaking=false;
+            stopTimer();
+    }
+    function manageRecognition() {
+            if (speaking) stopRecognition();
+            else          startRecognition();
+    }
+    let startTime;
+    let timerInterval;
+
+    function updateTimer() {
+        const now = new Date();
+        const elapsedTime = now - startTime;
+        const minutes = String(Math.floor(elapsedTime / 60000)).padStart(2, '0');
+        const seconds = String(Math.floor((elapsedTime % 60000) / 1000)).padStart(2, '0');
+        const milliseconds = String(elapsedTime % 1000).padStart(3, '0');
+        document.getElementById('timer-text').textContent = `${minutes}:${seconds}:${milliseconds}`;
+    }
+
+    function startTimer() {
+        startTime = new Date();
+        timerInterval = setInterval(updateTimer, 10);
+        updateTimer(); // Chiamata iniziale per visualizzare il timer immediatamente
+    }
+
+    function stopTimer() {
+        clearInterval(timerInterval);
+    }
+    function toggleHelp() {
+        const helpDiv = document.getElementById('help-instructions');
+        if (helpDiv.style.display === 'none' || helpDiv.style.display === '') {
+            helpDiv.style.display = 'block';
+        } else {
+            helpDiv.style.display = 'none';
+        }
+    }
+ </script>
+<div class="toast" id="myToast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="5000">
+  <div class="toast-header">
+    <strong class="mr-auto" id="toastTitle">Title</strong>
+    <small id="toastTime">&nbsp;Just now</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body" id="toastBody">
+    This is a message
+  </div>
+</div>

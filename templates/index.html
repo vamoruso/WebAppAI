@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IA Web App</title>
+    <link rel="manifest" href="static/manifest.json" />
+    <!-- iOS and iPadOS icon -->
+    <link rel="apple-touch-icon" href="static/images/favicon-192x192.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Inclusione del file CSS di Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <!-- Stylesheet della app -->
+    <link rel="stylesheet" href="static/css/mytinyaiapp.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Material Icons for floating button-->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+</head>
+<body id="page-top">
+<div class="d-flex flex-column min-vh-100">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+         <div class="container-fluid">
+                 <a class="navbar-brand" href="#">WebApp con IA</a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+                navigation">
+                 <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                         <ul class="navbar-nav">
+                                     <li class="nav-item">
+                                     <a class="nav-link active" data-bs-target="#home" aria-current="page" data-bs-toggle="collapse" href="#"><i class="fa fa-home"></i> Home</a>
+                                     </li>
+                                     <li class="nav-item">
+                                     <a class="nav-link" href="#" data-bs-target="#receipt" data-bs-toggle="collapse"><i class="fa fa-receipt"></i> OCR scontrini</a>
+                                     </li>
+                                     <li class="nav-item">
+                                     <a class="nav-link" href="#" data-bs-target="#inquiry_chat_app" data-bs-toggle="collapse"><i class="fa fa-comment"></i> Chatbot Q&A</a>
+                                     </li>
+                                     <li class="nav-item">
+                                     <a class="nav-link" href="#" data-bs-target="#vocal_commands" data-bs-toggle="collapse"><i class="fa fa-microphone"></i> Assenze da comando vocale</a>
+                                     </li>
+                         </ul>
+                 </div>
+         </div>
+ </nav>
+    <!-- Page Content-->
+        <main id="page-content" class="container-fluid py-3 overflowauto">
+        </main>
+            <!-- Home-->
+             <div id="home" class="collapse content">
+                 <div id="carouselIAWebApp" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <div class="cards-wrapper">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="static/images/OCR.jpeg" alt="OCR">
+                                        <div class="card-body">
+                                            <h5 class="card-title">OCR scontrini</h5>
+                                            <p class="card-text">Esplora l&apos;applicazione IA con OCR per il riconoscimento di uno scontrino fiscale.</p>
+                                            <a href="#" onclick="goMenu('receipt')" class="btn btn-primary"><i class="fa fa-search"></i> Esplora</a>
+                                        </div>
+                                    </div>
+                                 </div>
+                       </div>
+                       <div class="carousel-item">
+                                <div class="cards-wrapper">
+                                     <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="static/images/ChatBot.jpeg" alt="Chat Bot">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chatbot Q&A</h5>
+                                            <p class="card-text">Esplora lo sviluppo e l'implementazione di un sistema di domanda e risposta automatizzato basato su un chatbot.</p>
+                                            <a href="#" onclick="goMenu('inquiry_chat_app')" class="btn btn-primary"><i class="fa fa-search"></i> Esplora</a>
+                                        </div>
+                                    </div>
+                                 </div>
+                       </div>
+                       <div class="carousel-item">
+                                <div class="cards-wrapper">
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="static/images/vocal_commands.jpeg" alt="Vocal command">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Assenze da comandi vocali</h5>
+                                                <p class="card-text">Esplora lo sviluppo per l’interazione vocale legata alla gestione delle assenze.</p>
+                                                <a href="#" onclick="goMenu('vocal_commands')" class="btn btn-primary"><i class="fa fa-search"></i> Esplora</a>
+                                            </div>
+                                    </div>
+                                 </div>
+                      </div>
+                    </div>
+                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselIAWebApp" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                       </button>
+                       <button class="carousel-control-next" type="button" data-bs-target="#carouselIAWebApp" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                       </button>
+                 </div>
+		    </div>
+            <!-- OCR Scontrini-->
+            <div  id="receipt" class="collapse content" >
+            </div>
+            <!-- Chatbot Q&A-->
+            <div  id="inquiry_chat_app" class="collapse content" >
+            </div>
+
+            <!-- Assenze da comandi vocali -->
+            <div  id="vocal_commands" class="collapse content" >
+            </div>
+
+
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script><!-- Tooltip -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <script src="static/js/script.js"></script>
+    <script src="static/js/messages.js"></script>
+     <script>
+         document.addEventListener('DOMContentLoaded', (event) => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const contents = document.querySelectorAll('.content');
+
+            navLinks.forEach(link => {
+                // Registra cambio pagina attiva al click della voce di menu
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const page = e.target.getAttribute('data-bs-target').substring(1);
+                    contents.forEach(content => {
+                        content.classList.remove('show');
+                    });
+                    console.log(page);
+
+                    document.getElementById(page).classList.add('show');
+
+                    navLinks.forEach(navLink => {
+                        navLink.classList.remove('active');
+                    });
+                    e.target.classList.add('active');
+                });
+                // Mostra link menu attivo
+                if (link.classList.contains('active')) {
+                    const page = link.getAttribute('data-bs-target').substring(1);
+                    contents.forEach(content => {
+                        content.classList.remove('show');
+                    });
+                    console.log(page);
+
+                    document.getElementById(page).classList.add('show');
+                }
+            });
+             $('[data-bs-toggle=tooltip]').tooltip();
+        });
+
+     $('#receipt').load('ocr_receipt');
+     $('#inquiry_chat_app').load('inquiry_chat_app');
+     $('#vocal_commands').load('vocal_commands');
+    </script>
+</body>
+</html>

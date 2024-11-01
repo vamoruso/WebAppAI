@@ -1,0 +1,68 @@
+                <div>
+                 <div class="card" style="width: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title text-center"><i class="fa fa-receipt"></i>  Carica scontrino</h5>
+                   <div class="d-flex flex-row mb-3 justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                         <div class="progress" id="id_upload_progress_receipt" style="display:none;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 p-2">
+                                    <form method=post id="receiptForm" enctype=multipart/form-data>
+                                        <div class="form-group">
+                                        <label for="receipt-image" class="form-label">Scegliere il file per Upload</label>
+                                       <input id="receipt-image" accept="image/*;capture=camera" name="receipt-image" type="file" onchange="preparePreview(this)"  class="form-control" data-browse-on-zone-click="true">
+                                       <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" onclick="javascript:sendReceipt()" title="Invia file al server"><i class="fa fa-cloud-upload"></i> Invia</button>
+                                        </div>
+                                     </form>
+                        </div>
+                        <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+                                    <div class="card" style="width:18em">
+                                        <img class="card-img-top" id="preview_receipt" src="#" alt="Qui vedrai l&apos;anteprima dello scontrino" />
+                                         <div class="card-body">
+                                            <h5 class="card-title" class="text-primary"><center>Anteprima</center></h5>
+                                          </div>
+                                     </div>
+                         </div>
+                     </div>
+                    <br/>
+                   <div class="col-12 p-2  card card-body">
+                         <h5 class="card-title text-center"><i class="fa fa-money-bill"></i> Le mie spese</h5>
+                   <div class="container">
+                      <div class="row gx-1">
+                        <div class="col-1  col-md-1 border bg-light"><b>#</b></div>
+                        <div class="col-11 col-md-4 border bg-light"><b>Ragione sociale</b></div>
+                        <div class="col-4  col-md-2 border bg-light"><b>Data</b></div>
+                        <div class="col-3  col-md-2 border bg-light"><b>Ora</b></div>
+                        <div class="col-3  col-md-2 border bg-light"><b>Importo</b></div>
+                        <div class="col-2  col-md-1 border bg-light flex-column"></div>
+                      </div>
+                   <!-- Receipt List -->
+                    <div class="col-12" id="receipt_row_list">
+                        <div id="no_rows" class="alert alert-warning text-center" role="alert">
+                                Lista vuota
+                        </div>
+                    </div>
+                    <script id="receipt_row_template"  type="text/x-handlebars-template">
+                        {% raw %}
+                      <div  id="receipt_id{{inc @index}}"   class="row gx-1 {{#isEven @index}}row-odd{{else}}row-even{{/isEven}}" >
+                        <div class="col-1  col-md-1 border ">{{getIndex}}</div>
+                        <div class="col-11 col-md-4 border ">{{store_addr}}</div>
+                        <div class="col-4  col-md-2 border ">{{date}}</div>
+                        <div class="col-3  col-md-2 border ">{{time}}</div>
+                        <div class="col-3  col-md-2 border ">{{total}}</div>
+                        <div class="col-2  col-md-1 border "> <button type="button" class="btn btn-no-border d-block" onclick="javascript:deleteReceiptById('receipt_id{{getIndex}}')" title="Cancella"><i class="fas fa-trash icon-dark"></i></button></div>
+                      </div>
+                        {% endraw %}
+                    </script>
+                    </div>
+                   </div>
+                    </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+        </div>

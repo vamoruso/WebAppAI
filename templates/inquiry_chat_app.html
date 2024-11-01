@@ -1,0 +1,66 @@
+
+                <!-- Ispirato da https://github.com/mdbootstrap/bootstrap-chat -->
+                <div class="row d-flex justify-content-center content">
+                      <div class="col-md-8 col-lg-6 col-xl-4">
+                        <div class="progress" id="id_progress_inquiry" style="display:none;">
+                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+                        </div>
+
+                        <!--div class="card" id="chat1" style="border-radius: 15px;"-->
+                          <!--div
+                            class="card-header d-flex justify-content-between align-items-center p-3 bg-primary text-white border-bottom-0"
+                            style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                            <p class="mb-0 fw-bold">Chatbot Q&A</p>
+                          </div>
+                          <div class="card-body"-->
+                             <div class="col-12 scrollable-div" id="chat_app_row_list">
+                             </div>
+                             <script id="chat_bot_row_template"  type="text/x-handlebars-template">
+                                 {% raw %}
+                                 <div class="d-flex flex-row justify-content-start mb-4">
+                                  <img src="static/images/bot_6819678.png" alt="{{bot_name}}"
+                                    style="width: 45px; height: 100%;" class="rounded-circle">
+                                  <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                                    <p class="small mb-0">{{{message}}}</p>
+                                  </div>
+                                </div>
+                                 {% endraw %}
+                             </script>
+                             <script id="guest_row_template"  type="text/x-handlebars-template">
+                                 {% raw %}
+                                  <div class="d-flex flex-row justify-content-end mb-4">
+                                      <div class="p-3 me-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                                        <p class="small mb-0">{{{message}}}</p>
+                                      </div>
+                                      <img src="static/images/person_11505648.png" alt="Ospite"
+                                        style="width: 45px; height: 100%;" class="rounded-circle">
+                                  </div>
+                                 {% endraw %}
+                             </script>
+                             <!-- -->
+
+                          <!--/div-->
+                        <!--/div-->
+
+                      </div>
+                </div>
+                <footer class="footer">
+                            <div class="card-footer text-muted d-flex justify-content-start align-items-center p-3">
+                                      <img src="static/images/person_11505648.png"
+              alt="avatar 3" style="width: 40px; height: 100%;" class="rounded-circle">
+                                    <input type="text" class="form-control form-control-md" id="guestInput"
+                                        placeholder="Digita qui il messaggio o la domanda">
+                                      <span tabindex="0" data-bs-toggle="tooltip" title="Seleziona il documento da caricare"><a class="ms-1 text-muted" href="#!" onclick="javascrpt:importData()"><i class="fas fa-paperclip"></i></a></span>
+                                <span tabindex="0" data-bs-toggle="tooltip" title="Invia la domanda"><a class="ms-3" id="guestSend" href="#!" onclick="javascrpt:answerQuestion($('#guestInput').val());$(this).val('')" ><i class="fas fa-paper-plane"></i></a></span>
+                            </div>
+
+                </footer>
+                <script>
+                    sendChatBotMessage(messages.welcome_bot);
+                    $('#guestInput').keypress(function(event) {
+                      if (event.which === 13) {
+                        // Enter key pressed, perform your action here
+                        $('#guestSend').click();
+                      }
+                    });
+                </script>

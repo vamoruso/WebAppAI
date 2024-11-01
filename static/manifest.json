@@ -1,0 +1,31 @@
+{
+  "short_name": "IA Web App",
+  "name": "IA Web App per L31",
+  "icons": [
+    {
+      "src": "images/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+     "src": "images/Chatbot.jpeg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Wonder Widgets"
+    }
+  ],
+  "description": "Questa applicazione descrive l'integrazione della Intelligenza Artificiali con applicazioni gestionali web.",
+  "categories": ["education"],
+  "start_url": "../",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
