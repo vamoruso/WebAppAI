@@ -2,14 +2,19 @@
 
 ###
 
-<p align="left">Questo repository è collegato al progetto la tesi di laurea L31 di Vincenzo Amoruso dell'AA 2024/25 della Unipegaso. <br/>Relatore Prof. Stefano D&apos;Urso</p>
+<p align="left">Questo repository è collegato al progetto software per la tesi di laurea del corso L31 di Vincenzo Amoruso dell'AA 2024/25 della Unipegaso. <br/>Relatore Prof. Stefano D&apos;Urso per &quot;Tecnologie Web&quot;</p>
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
 </p>
+<ol>
+  <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale</li>
+  <li>Applicazione pratica di IA con analisi del testo di un manuale pdf</li>
+  <li>Applicazione IA di WebSpeech API ed analisi NLP con Spacy</li>
+</ol>
 
 
 ###
 
-<h2 align="left">Vincenzo Amoruso</h2>
+<h2 align="left">Vincenzo Amoruso <cite>2024</cite></h2>
 
 ###
 
