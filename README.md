@@ -4,46 +4,27 @@
 
 <p align="left">Questo repository è collegato al progetto software per la tesi di laurea del corso L31 di Vincenzo Amoruso dell'AA 2024/25 della università telematica <b>Unipegaso</b>. <br/>Relatore <b>Prof. Stefano D&apos;Urso</b> per &quot;Tecnologie Web&quot;</p>
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
-<h3 align="left">Preparazione ambiente server Python</h3>
 
-###
 
+## Preparazione ambiente server Python
 
 ### Installare Python scaricabile dall'link 
     https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
 ### Creazione ambiente virtuale Python del server con il comando
-    
-    ```
     python -m venv D:\User\vincw\WebAppAI
-    ```
 ### Attivazione ambiente virtuale 
-    
-    ```
     D:\Users\vincw\WebAppAI\venv\Scripts\activate 
-    ```
 ### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare tutti i pacchetti necessari
-    
-     ```
     pip install requirements.txt 
-    ```
-    
 ### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il pacchetto per l'uso del protocollo https
-    
-    ```
     pip install pyopenssl 
-    ```
-    
 ### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy
-    
-    ```
     python -m spacy download en_core_web_md
-    ```
-    
 ### Per avviare il server eseguire il comando
-  
-  ```
+````
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
- ```
+````
+
 <br/>
 <br/>
 <ul>
