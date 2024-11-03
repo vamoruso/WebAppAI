@@ -4,8 +4,7 @@
 
 <p align="left">Questo repository è collegato al progetto software per la tesi di laurea del corso L31 di Vincenzo Amoruso dell'AA 2024/25 della università telematica <b>Unipegaso</b>. <br/>Relatore <b>Prof. Stefano D&apos;Urso</b> per &quot;Tecnologie Web&quot;</p>
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
-</p>
-<h4 align="left">Preparazione ambiente server Python</h4>
+<h3 align="left">Preparazione ambiente server Python</h3>
 <ul>
   <li>Installare Python scaricabile dall'link 
     https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
