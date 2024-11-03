@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Questo repository è collegato al progetto software per la tesi di laurea del corso L31 di Vincenzo Amoruso dell'AA 2024/25 della università telematica <b>Unipegaso</b>. <br/>Relatore **Prof. Stefano D&apos;Urso** per &quot;Tecnologie Web&quot;</p>
+<p align="left">Questo repository è collegato al progetto software per la tesi di laurea del corso L31 di Vincenzo Amoruso dell'AA 2024/25 della università telematica <b>Unipegaso</b>. <br/>Relatore <h4>Prof. Stefano D&apos;Urso</h4> per <h4>&quot;Tecnologie Web&quot;</h4></p>
 <p align="left">Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b></p>
 
 
