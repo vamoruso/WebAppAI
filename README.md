@@ -25,8 +25,8 @@
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
 ````
 
-<br/>
 ## Screenshots di test
+
 <ul>
   <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale<br/>
     <table>
