@@ -9,6 +9,7 @@
   <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale<br/>
     <table>
       <tr>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1_1.png" style="width: 50%; height: 50%" /> </td>
         <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png" style="width: 50%; height: 50%" /> </td>
         <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_2.png" style="width: 50%; height: 50%" /> </td>
         <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png" style="width: 50%; height: 50%" /> </td>
