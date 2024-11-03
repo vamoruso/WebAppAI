@@ -37,6 +37,7 @@
         <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png" style="width: 50%; height: 50%" /> </td>
       </tr>  
     </table>
+    
 ### Applicazione pratica di IA con analisi del testo di un manuale pdf
     <table>
        <tr>
@@ -47,6 +48,7 @@
         <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen5.png" style="width: 50%; height: 50%"/> </td>
        </tr>
     </table>  
+    
 ### Applicazione IA di WebSpeech API ed analisi NLP con Spacy
       <table>
       <tr>
