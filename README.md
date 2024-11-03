@@ -15,8 +15,7 @@
     ```
     python -m venv D:\User\vincw\WebAppAI 
     ```
-    
-  </li>
+    </li>
   <li>Attivazione ambiente virtuale 
     
     ```
