@@ -14,9 +14,10 @@
   </li>
   <li>Creazione ambiente virtuale Python del server con il comando
     
-    ```
+    ````
     python -m venv D:\User\vincw\WebAppAI
-    ```
+    ````
+    
   </li>
   <li>Attivazione ambiente virtuale 
     
