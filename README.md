@@ -39,10 +39,9 @@
     
   </li>
   <li>Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy 
-    
-    ```
+    ``` 
     python -m spacy download en_core_web_md 
-    ```
+     ```
     
   </li>
 </ul>  
