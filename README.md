@@ -7,27 +7,35 @@
 </p>
 <ul>
   <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale<br/>
-    <ol>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png" style="width: 50%; height: 50%" /> </li>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_2.png" style="width: 50%; height: 50%" /> </li>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png" style="width: 50%; height: 50%" /> </li>
-    </ol>
+    <table>
+      <tr>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_1.png" style="width: 50%; height: 50%" /> </td>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_2.png" style="width: 50%; height: 50%" /> </td>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png" style="width: 50%; height: 50%" /> </td>
+      </tr>  
+    </table>
   </li>
   <li>Applicazione pratica di IA con analisi del testo di un manuale pdf<br/>
-       <ol>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen1.png" style="width: 50%; height: 50%"/> </li>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen2.png" style="width: 50%; height: 50%"/> </li>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen3.png" style="width: 50%; height: 50%"/> </li>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen4.png" style="width: 50%; height: 50%"/> </li>
-        <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen5.png" style="width: 50%; height: 50%"/> </li>
-       </ol>
+    <table>
+       <tr>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen1.png" style="width: 50%; height: 50%"/> </td>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen2.png" style="width: 50%; height: 50%"/> </td>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen3.png" style="width: 50%; height: 50%"/> </td>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen4.png" style="width: 50%; height: 50%"/> </td>
+        <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen5.png" style="width: 50%; height: 50%"/> </td>
+       </tr>
+    </table>  
   </li>
   <li>Applicazione IA di WebSpeech API ed analisi NLP con Spacy<br/>
-      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen1.png" style="width: 50%; height: 50%"/> </li>
-      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen2.png" style="width: 50%; height: 50%"/> </li>
-      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen3.png" style="width: 50%; height: 50%"/> </li>
-      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen4.png" style="width: 50%; height: 50%"/> </li>
-      <li><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen5.png" style="width: 50%; height: 50%"/> </li>  
+      <table>
+      <tr>
+      <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen1.png" style="width: 50%; height: 50%"/> </td>
+      <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen2.png" style="width: 50%; height: 50%"/> </td>
+      <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen3.png" style="width: 50%; height: 50%"/> </td>
+      <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen4.png" style="width: 50%; height: 50%"/> </td>
+      <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen5.png" style="width: 50%; height: 50%"/> </td>  
+       </tr>  
+      </table>   
   </li>
 </ul>
 
