@@ -27,8 +27,7 @@
 
 ## Screenshots di test
 
-<ul>
-  ### Applicazione IA con OCR per riconoscimento uno scontrino fiscale
+### Applicazione IA con OCR per riconoscimento uno scontrino fiscale
     
     <table>
       <tr>
