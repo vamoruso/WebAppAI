@@ -20,7 +20,7 @@
     pip install pyopenssl 
 ### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy
     python -m spacy download en_core_web_md
-### Per avviare il server eseguire il comando
+### Per avviare il web server Flask eseguire il comando
 ````
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
 ````
