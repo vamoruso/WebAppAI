@@ -34,10 +34,12 @@
     ```
   </li>
   <li>Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy
+   <b>
     
     ```
     python -m spacy download en_core_web_md
     ```
+    </b>
   </li>
 </ul>  
 <b>Per avviare il server eseguire il comando
@@ -46,11 +48,6 @@
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
  ```
 </b>
-{% tip %}
-
-Tip: To preserve your formatting within a list, make sure to indent non-fenced code blocks by eight spaces.
-
-{% endtip %}
 <br/>
 <br/>
 <ul>
