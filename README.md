@@ -8,48 +8,42 @@
 
 ###
 
-<ul>
-  <li>Installare Python scaricabile dall'link 
+
+### Installare Python scaricabile dall'link 
     https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
-  </li>
-  <li>Creazione ambiente virtuale Python del server con il comando
+### Creazione ambiente virtuale Python del server con il comando
     
     ```
     python -m venv D:\User\vincw\WebAppAI
     ```
-    
-  </li>
-  <li>Attivazione ambiente virtuale 
+### Attivazione ambiente virtuale 
     
     ```
     D:\Users\vincw\WebAppAI\venv\Scripts\activate 
     ```
-  </li>
-   <li>Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare tutti i pacchetti necessari
+### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare tutti i pacchetti necessari
     
      ```
     pip install requirements.txt 
     ```
-  </li>
-  <li>Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il pacchetto per l'uso del protocollo https
+    
+### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il pacchetto per l'uso del protocollo https
     
     ```
     pip install pyopenssl 
     ```
-  </li>
-</ul>  
-  <b>Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy
+    
+### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy
     
     ```
     python -m spacy download en_core_web_md
     ```
-  </b>
-<b>Per avviare il server eseguire il comando
+    
+### Per avviare il server eseguire il comando
   
   ```
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
  ```
-</b>
 <br/>
 <br/>
 <ul>
