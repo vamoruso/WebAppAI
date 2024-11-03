@@ -35,7 +35,8 @@
     ```
   </li>
 </ul>  
-<b>Per avviare il server eseguire il comando 
+<b>Per avviare il server eseguire il comando
+  
   ```
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
  ```
