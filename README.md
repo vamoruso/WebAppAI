@@ -46,6 +46,11 @@
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
  ```
 </b>
+{% tip %}
+
+Tip: To preserve your formatting within a list, make sure to indent non-fenced code blocks by eight spaces.
+
+{% endtip %}
 <br/>
 <br/>
 <ul>
