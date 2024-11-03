@@ -7,13 +7,17 @@
 </p>
 <p align="left">Preparazione ambiente server Python</b></p>
 <ul>
-  <li>Installare Python scaricabile dall'link https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe</li>
+  <li>Installare Python scaricabile dall'link 
+    https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
+  </li>
   <li>Creazione ambiente virtual server con il comando 
     ```
     python -m venv D:\User\vincw\WebAppAI 
     ```
   </li>
 </ul>  
+<br/>
+<br/>
 <ul>
   <li>Applicazione IA con OCR per riconoscimento uno scontrino fiscale<br/>
     <table>
