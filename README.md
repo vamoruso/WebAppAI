@@ -81,10 +81,6 @@
 
 ###
 
-<h2 align="left">Vincenzo Amoruso <cite>2024</cite></h2>
-
-###
-
 <h2 align="left">Il progetto utilizza le seguenti tecnologie</h2>
 
 ###
@@ -122,3 +118,9 @@
 * [Hugging face Adamcodd OCR-free Document Understanding Transformer](https://huggingface.co/AdamCodd/donut-receipts-extract).
 * [Hugging face BERT model for the Italian language](https://huggingface.co/osiria/bert-italian-cased-question-answering)
 * [https://github.com/daveyjh](https://github.com/mdbootstrap/bootstrap-chat) - Per la UX del chatbot.
+
+---
+###
+
+<h2 align="left">Vincenzo Amoruso <cite>2024</cite></h2>
+
