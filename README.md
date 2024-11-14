@@ -1,5 +1,3 @@
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat=markdown&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vamoruso/WebAppAI?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/vamoruso/WebAppAI?style=flat)  ![GitHub Repo stars](https://img.shields.io/github/stars/vamoruso/WebAppAI?style=social)  
-
 <h1 align="left">Web App IA </h1>
 
 ###
@@ -118,6 +116,10 @@
 * [Hugging face Adamcodd OCR-free Document Understanding Transformer](https://huggingface.co/AdamCodd/donut-receipts-extract).
 * [Hugging face BERT model for the Italian language](https://huggingface.co/osiria/bert-italian-cased-question-answering)
 * [https://github.com/daveyjh](https://github.com/mdbootstrap/bootstrap-chat) - Per la UX del chatbot.
+
+
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat=markdown&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vamoruso/WebAppAI?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/vamoruso/WebAppAI?style=flat)  ![GitHub Repo stars](https://img.shields.io/github/stars/vamoruso/WebAppAI?style=social)  
+
 
 ---
 ###
