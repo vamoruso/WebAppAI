@@ -4,10 +4,10 @@
 
 ### Questo repository è collegato al progetto software per la tesi di laurea di Vincenzo Amoruso dell'AA 2024/25 della <b>Università Telematica Unipegaso</b> 
 ### Corso di laurea in : <b>Informatica per le aziende digitali L-31</b>
-### Relatore : <b>Prof. Stefano D&apos;Urso</b>
-### Insegnamento di : <b>&quot;Tecnologie Web&quot;</b>
-### Titolo della tesi : <b>&quot;Intelligenza Artificiale e sue applicazioni in informatica gestionale&quot;</b>
-### Obiettivo: <b>Il progetto applica con esempi pratici al software gestionale alcune delle potenzialità della intelligenza artificiale.</b>
+### Relatore : ***Prof. Stefano D&apos;Urso***
+### Insegnamento di : ***Tecnologie Web***
+### Titolo della tesi : ***Intelligenza Artificiale e sue applicazioni in informatica gestionale***
+### Obiettivo: ***Il progetto applica con esempi pratici al software gestionale alcune delle potenzialità della intelligenza artificiale.***
 
 ## Preparazione ambiente server Python
 
