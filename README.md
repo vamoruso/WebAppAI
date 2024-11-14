@@ -2,8 +2,8 @@
 
 ###
 
-### Questo repository è collegato al progetto software per la tesi di laurea di Vincenzo Amoruso dell'AA 2024/25 della <b>Università Telematica Unipegaso</b> 
-### Corso di laurea in : <b>Informatica per le aziende digitali L-31</b>
+### Questo repository è collegato al progetto software per la tesi di laurea di Vincenzo Amoruso dell'AA 2024/25 della **Università Telematica Unipegaso**
+### Corso di laurea in : ***Informatica per le aziende digitali L-31***
 ### Relatore : ***Prof. Stefano D&apos;Urso***
 ### Insegnamento di : ***Tecnologie Web***
 ### Titolo della tesi : ***Intelligenza Artificiale e sue applicazioni in informatica gestionale***
@@ -31,7 +31,7 @@
 > [!NOTE]
 > Il server sarà in ascolto sulla porta 8000 all'indirizzo https://localhost:8000 
 
-## Screenshots di test
+## Screenshots e video di test
 
 ### Applicazione IA con OCR per riconoscimento uno scontrino fiscale
     
