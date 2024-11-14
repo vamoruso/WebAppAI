@@ -1,4 +1,4 @@
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat=markdown&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vamoruso/WebAppAI?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/vamoruso/WebAppAI?style=flat)  ![GitHub Repo stars](https://img.shields.io/github/stars/vamoruso/WebAppAI?style=social)  ![GitHub forks](https://img.shields.io/github/vamoruso/WebAppAI?style=social)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat=markdown&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vamoruso/WebAppAI?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/vamoruso/WebAppAI?style=flat)  ![GitHub Repo stars](https://img.shields.io/github/stars/vamoruso/WebAppAI?style=social)  
 
 <h1 align="left">Web App IA </h1>
 
