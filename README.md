@@ -28,6 +28,9 @@
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
 ````
 
+> [!NOTE]
+> Il server sarà in ascolto sulla porta 8000 all'indirizzo https://localhost:8000 
+
 ## Screenshots di test
 
 ### Applicazione IA con OCR per riconoscimento uno scontrino fiscale
