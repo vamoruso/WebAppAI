@@ -109,7 +109,7 @@
 
 ### Media
 
-• Tutti gli screenshot del codice utilizzato in questo README sono stati realizzati da su dispostivo Android 13 modello OPPO A74 5G.
+• Tutti gli screenshot del codice utilizzato in questo README sono stati realizzati da me su dispostivo Android 13 modello OPPO A74 5G.
 
 ### Ringraziamenti
 
