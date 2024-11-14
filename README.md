@@ -109,3 +109,13 @@
 
 ###
 
+## Credits
+
+### Media
+
+• Tutti gli screenshot del codice utilizzato in questo README sono stati realizzati da su dispostivo Android 13 modello OPPO A74 5G.
+
+### Ringraziamenti
+
+* [Hugging face Adamcodd OCR-free Document Understanding Transformer]([https://github.com/Edb83](https://huggingface.co/AdamCodd/donut-receipts-extract)).
+* [https://github.com/daveyjh](https://github.com/mdbootstrap/bootstrap-chat) - Per la UX del chatbot.
