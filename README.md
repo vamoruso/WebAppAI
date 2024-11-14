@@ -17,11 +17,11 @@
     python -m venv D:\User\vincw\WebAppAI
 ### Attivare l'ambiente virtuale 
     D:\Users\vincw\WebAppAI\venv\Scripts\activate 
-### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare tutti i pacchetti necessari
+### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare tutti i pacchetti necessari
     pip install requirements.txt 
-### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il pacchetto per l'uso del protocollo https
+### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il pacchetto per l'uso del protocollo https
     pip install pyopenssl 
-### Nell'ambiente virtuale (venv) D:\Users\vincw\WebAppAI  eseguire il comando per installare il modello spaCy
+### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il modello spaCy
     python -m spacy download en_core_web_md
 ### Per avviare il web server Flask eseguire il comando
 ````Shell
