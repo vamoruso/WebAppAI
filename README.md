@@ -117,5 +117,5 @@
 
 ### Ringraziamenti
 
-* [Hugging face Adamcodd OCR-free Document Understanding Transformer]([https://github.com/Edb83](https://huggingface.co/AdamCodd/donut-receipts-extract)).
+* [Hugging face Adamcodd OCR-free Document Understanding Transformer](https://huggingface.co/AdamCodd/donut-receipts-extract).
 * [https://github.com/daveyjh](https://github.com/mdbootstrap/bootstrap-chat) - Per la UX del chatbot.
