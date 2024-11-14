@@ -118,4 +118,5 @@
 ### Ringraziamenti
 
 * [Hugging face Adamcodd OCR-free Document Understanding Transformer](https://huggingface.co/AdamCodd/donut-receipts-extract).
+* [Hugging face BERT model for the Italian language](https://huggingface.co/osiria/bert-italian-cased-question-answering)
 * [https://github.com/daveyjh](https://github.com/mdbootstrap/bootstrap-chat) - Per la UX del chatbot.
