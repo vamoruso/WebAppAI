@@ -42,6 +42,9 @@
 <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_2.png" style="width: 50%; height: 50%" /> </td>
 <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/OCR/OCR_screen_3.png" style="width: 50%; height: 50%" /> </td>
 </tr>  
+     <tr>
+      <td colspan=4>[Video](https://youtu.be/XBB3AnkUHHY)</td> 
+   </tr> 
 </table>
     
 ### Applicazione pratica di IA con analisi del testo di un manuale pdf
@@ -54,6 +57,9 @@
     <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen4.png" style="width: 50%; height: 50%"/> </td>
     <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/Chatbot/Chatbot_screen5.png" style="width: 50%; height: 50%"/> </td>
    </tr>
+   <tr>
+      <td colspan=5>[Video](https://youtu.be/PZYo-wV8GzY)</td> 
+   </tr> 
 </table>  
     
 ### Applicazione IA di WebSpeech API ed analisi NLP con Spacy
@@ -66,6 +72,9 @@
 <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen4.png" style="width: 50%; height: 50%"/> </td>
 <td><img src="https://github.com/vamoruso/WebAppAI/blob/main/screenshots/absences_vocal_command/AssenzeDaComandoVocale_screen5.png" style="width: 50%; height: 50%"/> </td>  
 </tr>  
+     <tr>
+      <td colspan=5>[Video](https://youtu.be/9S8fvFy-tFI)</td> 
+   </tr> 
 </table>   
 
 ###
