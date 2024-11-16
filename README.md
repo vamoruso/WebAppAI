@@ -14,7 +14,7 @@
 ### Installare Python scaricabile dall'link 
     https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
 ### Creare l'ambiente virtuale Python del server con il comando
-    python -m venv D:\User\vincw\WebAppAI
+    python -m venv D:\Users\vincw\WebAppAI
 ### Attivare l'ambiente virtuale 
     D:\Users\vincw\WebAppAI\venv\Scripts\activate 
 ### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare tutti i pacchetti necessari
