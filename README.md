@@ -12,7 +12,7 @@
 ## Preparazione ambiente server Python
 
 ### - Installare Python scaricabile dall'link 
-    https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
+    [https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe](https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe)
 ### - Creare l'ambiente virtuale Python del server con il comando
     python -m venv D:\Users\vincw\WebAppAI
 ### - Attivare l'ambiente virtuale 
