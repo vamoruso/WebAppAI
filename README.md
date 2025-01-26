@@ -11,21 +11,21 @@
 
 ## Preparazione ambiente server Python
 
-### Installare Python scaricabile dall'link 
+### - Installare Python scaricabile dall'link 
     https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
-### Creare l'ambiente virtuale Python del server con il comando
+### - Creare l'ambiente virtuale Python del server con il comando
     python -m venv D:\Users\vincw\WebAppAI
-### Attivare l'ambiente virtuale 
+### - Attivare l'ambiente virtuale 
     D:\Users\vincw\WebAppAI\Scripts\activate 
-### Copia tutti i files scaricati dal repository remoto GitHub nella cartella dell'ambiente virtuale locale.
+### - Copiare tutti i files scaricati dal repository remoto GitHub nella cartella dell'ambiente virtuale locale.
 
-### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare tutti i pacchetti necessari
+### - Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare tutti i pacchetti necessari
     pip install requirements.txt 
-### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il pacchetto per l'uso del protocollo https
+### - Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il pacchetto per l'uso del protocollo https
     pip install pyopenssl 
-### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il modello spaCy
+### - Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il modello spaCy
     python -m spacy download en_core_web_md
-### Per avviare il web server Flask eseguire il comando
+### - Per avviare il web server Flask eseguire il comando
 ````Shell
   python.exe D:\Users\vincw\WebAppAI\IAWebAppFlaskServer.py
 ````
