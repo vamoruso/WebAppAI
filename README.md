@@ -17,7 +17,8 @@
     python -m venv D:\Users\vincw\WebAppAI
 ### Attivare l'ambiente virtuale 
     D:\Users\vincw\WebAppAI\Scripts\activate 
-### Copia tutti i files dal reposotpry remoto nella cartella dell'ambiente virtuale locale. 
+### Copia tutti i files scaricati dal repository remoto GitHub nella cartella dell'ambiente virtuale locale.
+
 ### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare tutti i pacchetti necessari
     pip install requirements.txt 
 ### Nell'ambiente virtuale *(venv) D:\Users\vincw\WebAppAI*  eseguire il comando per installare il pacchetto per l'uso del protocollo https
